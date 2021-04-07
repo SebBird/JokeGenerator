@@ -20,5 +20,10 @@ button {
   width: 10rem;
 }
 
+button:focus {
+  outline: 0;
+  background: goldenrod;
+}
+
 h1 {
 }
