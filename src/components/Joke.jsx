@@ -23,6 +23,10 @@ const Joke = () => {
           setSetup(res.setup);
           setDelivery(res.delivery);
         }
+      })
+      .catch(() => {
+        setJokeType('single');
+        setSingleJoke('Error: No Joke Found');
       });
   };
 
